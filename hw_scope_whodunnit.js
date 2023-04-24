@@ -64,7 +64,7 @@
 // console.log(`Suspect three is ${suspectThree}.`);
 
 
-// // Episode 5
+// // Episode 5 Prediction: the weapon is the revolver, as we called change weapon which changed the weapon property of the scenario object
 
 
 // const scenario = {
@@ -86,28 +86,28 @@
 // console.log(verdict);
 
 
-// // Episode 6
+// // Episode 6 Predictions: is Mrs White as its calling the plotTwist function
 
 
-// let murderer = 'Colonel Mustard';
+let murderer = 'Colonel Mustard';
 
-// const changeMurderer = function() {
-//   murderer = 'Mr. Green';
+const changeMurderer = function() {
+  murderer = 'Mr. Green';
 
-//   const plotTwist = function() {
-//     murderer = 'Mrs. White';
-//   }
+  const plotTwist = function() {
+    murderer = 'Mrs. White';
+  }
 
-//   plotTwist();
-// }
+  plotTwist();
+}
 
-// const declareMurderer = function () {
-//   return `The murderer is ${murderer}.`;
-// }
+const declareMurderer = function () {
+  return `The murderer is ${murderer}.`;
+}
 
-// changeMurderer();
-// const verdict = declareMurderer();
-// console.log(verdict);
+changeMurderer();
+const verdict = declareMurderer();
+console.log(verdict);
 
 
 // // Episode 7
